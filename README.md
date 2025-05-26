@@ -1,4 +1,11 @@
+
 # 🧠 chatpack
+
+![npm](https://img.shields.io/npm/v/@uatthaphon/chatpack)
+![CI](https://github.com/uatthaphon/chatpack/actions/workflows/test.yml/badge.svg)
+![Coverage](https://img.shields.io/codecov/c/github/uatthaphon/chatpack)
+![License](https://img.shields.io/npm/l/@uatthaphon/chatpack)
+![Node](https://img.shields.io/node/v/@uatthaphon/chatpack)
 
 
 Pack only what matters. Zip your code context for smarter AI coding with ChatGPT or any LLM.

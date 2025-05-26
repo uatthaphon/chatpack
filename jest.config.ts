@@ -13,6 +13,7 @@ const config: Config = {
     '!src/scripts/**',
   ],
   coverageDirectory: 'coverage',
+  coverageReporters: ['text', 'lcov'],
   transform: {
     '^.+\\.tsx?$': [
       'ts-jest',
