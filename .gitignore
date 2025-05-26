@@ -1,0 +1,39 @@
+# Output directories
+dist/
+chatpack-for-chatgpt.zip
+
+# Node dependencies
+node_modules/
+
+# Local config
+.env
+*.log
+
+# Chatpack context files
+CHATPACK.md
+.chatpackignore
+*-context.zip
+
+# Editor and OS-specific
+.DS_Store
+.vscode/
+# Output directories
+dist/
+chatpack-for-chatgpt.zip
+
+# Node dependencies
+node_modules/
+
+# Local config
+.env
+*.log
+
+# Chatpack context files
+CHATPACK.md
+.chatpackignore
+*-context.zip
+
+# Editor and OS-specific
+.DS_Store
+.vscode/
+coverage/
