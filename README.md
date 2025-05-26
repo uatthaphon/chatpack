@@ -106,6 +106,8 @@ coverage/
 src/
 ├── bin/         # CLI entry point
 ├── lib/         # Core logic: zip, create, ignore
+├── __tests__/   # Unit tests
+├── scripts/     # Build helpers (e.g. postbuild)
 templates/       # Default content for CHATPACK.md
 ```
 
