@@ -113,17 +113,32 @@ templates/       # Default content for CHATPACK.md
 
 ### Run CLI Locally (without publishing)
 
-After building:
+After building the CLI:
 ```
 npm run build
 npm link
 ```
 
-Then use `chatpack` from anywhere in your terminal.
+This makes the `chatpack` command available globally on your machine, pointing to your local build.
 
-To unlink:
+To verify it's linked:
+```
+which chatpack
+```
+
+To remove the global link:
 ```
 npm unlink
+```
+
+If you get a file already exists error, you can force the link:
+```
+npm link --force
+```
+
+Or clean up a previous install:
+```
+npm unlink -g chatpack
 ```
 
 ### Development Tips
