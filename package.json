@@ -1,5 +1,5 @@
 {
-  "name": "chatpack",
+  "name": "@uatthaphon/chatpack",
   "version": "1.0.0",
   "description": "A CLI tool to zip only the relevant parts of your codebase for LLMs like ChatGPT.",
   "main": "dist/bin/chatpack.js",
