@@ -1,20 +1,30 @@
 
-# 🧠 chatpack
-
 ![npm](https://img.shields.io/npm/v/@uatthaphon/chatpack)
 ![CI](https://github.com/uatthaphon/chatpack/actions/workflows/test.yml/badge.svg)
 ![Coverage](https://img.shields.io/codecov/c/github/uatthaphon/chatpack)
 ![License](https://img.shields.io/npm/l/@uatthaphon/chatpack)
 ![Node](https://img.shields.io/node/v/@uatthaphon/chatpack)
 
+# 🧠 chatpack
+
 
 Pack only what matters. Zip your code context for smarter AI coding with ChatGPT or any LLM.
+
+## 📦 NPM Package
+
+Published under a scoped package 👉 [`@uatthaphon/chatpack`](https://www.npmjs.com/package/@uatthaphon/chatpack)
+
+Install globally:
+```bash
+npm install -g @uatthaphon/chatpack
+```
 
 ---
 
 ## 📚 Table of Contents
 
 - [🧠 chatpack](#-chatpack)
+  - [📦 NPM Package](#-npm-package)
   - [📚 Table of Contents](#-table-of-contents)
   - [✨ What is chatpack?](#-what-is-chatpack)
   - [📦 Installation](#-installation)
@@ -22,6 +32,9 @@ Pack only what matters. Zip your code context for smarter AI coding with ChatGPT
     - [1. Zip your current project](#1-zip-your-current-project)
     - [2. Create a context file and ignore rules](#2-create-a-context-file-and-ignore-rules)
     - [3. Add global ignore (optional)](#3-add-global-ignore-optional)
+  - [🔐 Privacy \& Client Concerns](#-privacy--client-concerns)
+    - [✅ Best Practices](#-best-practices)
+  - [❓ Common Client Question](#-common-client-question)
   - [📁 .chatpackignore](#-chatpackignore)
   - [🧰 Development](#-development)
     - [Project Structure](#project-structure)
@@ -88,6 +101,26 @@ chatpack ignore --global
 ```
 
 Adds patterns like `**/CHATPACK.md`, `**/*.zip`, `**/.chatpackignore` to your global `.gitignore`.
+
+---
+
+## 🔐 Privacy & Client Concerns
+
+If you are working with sensitive or client-owned code, Chatpack helps you maintain strict control over what is shared with AI assistants.
+
+### ✅ Best Practices
+
+- **Mask sensitive data**: Never include `.env`, credentials, customer data, or private keys. These are excluded by default in `.chatpackignore`.
+- **Avoid uploading full repos**: Only zip the relevant services, features, or modules. Use `chatpack create` and `chatpack zip` with scoped folders if needed.
+- **Use context-driven templates**: `CHATPACK.md` helps describe the project clearly without leaking implementation details. You control what is included.
+
+---
+
+## ❓ Common Client Question
+
+> **Q: "Is it safe to use ChatGPT on our project code?"**
+
+**A:** _Yes. I use a tool called Chatpack that zips only the essential, non-sensitive parts of the code. It excludes things like production configs, customer data, and private infrastructure. I never upload the full repo or any secrets. Everything is filtered and anonymized to maintain confidentiality.
 
 ---
 
